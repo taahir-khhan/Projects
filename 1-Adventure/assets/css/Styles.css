@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Eczar&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Libre+Baskerville&family=Libre+Franklin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Proza+Libre&family=Rubik:wght@400;600&family=Taviraj&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: "Poppins", sans-serif;
+}
+
+a {
+      text-decoration: none;
+      color: whitesmoke;
+}
+li {
+      list-style-type: none;
+}
+body , html {
+      overflow-x: hidden;
+}
+section {
+      margin-bottom: 50px;
+}
+
+.navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      color: whitesmoke;
+}
+
+.nav-links {
+      display: flex;
+      align-items: center;
+}
+.nav-links li {
+      margin: 0 20px;
+}
+
+/* NAV-BAR */
+
+header {
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../img/header-bg.png);
+      background-position: bottom;
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+}
+
+.header-content {
+      margin-bottom: 150px;
+      text-align: center;
+      color: whitesmoke;
+}
+
+.header-content h2 {
+      font-size: 6vmin;
+}
+
+.header-content h1 {
+      font-size: 9vmin;
+      margin-top: 30px;
+      margin-bottom: 20px;
+}
+.line {
+      height: 5px;
+      width: 150px;
+      background-color: rgb(174, 12, 66);
+      border-radius: 5px;
+      margin: 10px auto;
+}
+.btn {
+      background-color: rgb(174, 12, 66);
+      padding: 10px 15px;
+      border-radius: 30px;
+      color: whitesmoke;
+}
+.menu-btn {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      width: 40px;
+      cursor: pointer;
+      display: none;
+}
+
+/* Events */
+
+.events {
+      margin-top: 50px;
+}
+.events h1 {
+      text-align: center;
+      font-size: 6vmin;
+      letter-spacing: 4px;
+      color: rgb(95, 90, 90);
+}
+.event-detail {
+      width: 80%;
+      margin: 40px auto;
+      display: flex;
+      justify-content: space-between;
+}
+.event-detail div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      text-align-last:center ;
+      text-align: justify;
+
+}
+.event-detail h2 {
+      color: rgb(95, 90, 90);
+      letter-spacing: 3px;
+      font-size: 3.5vmin;
+}
+.event-detail p {
+      width: 70%;
+      font-size: 2.2vmin;
+}
+
+/* Explore */
+
+.explore {
+      background-image: url(../img/bg2.png);
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      color: white;
+      display: flex;
+      align-items: center;
+}
+.explore-content {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 80px;
+}
+.explore-content h1 {
+      font-size: 7vmin;
+}
+.line2 {
+      margin-left: 0;
+      margin-bottom: 40px;
+      width: 200px;
+}
+.btn2 {
+      max-width: 150px;
+      margin-top: 30px;
+      text-align: center;
+}
+
+.tours {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(100, 100, 100);
+}
+
+.tours .content-col {
+      width: 50%;
+      display: flex;
+      gap: 30px;
+      margin-left: 50px;
+      flex-direction: column;
+}
+.content-col h1 {
+      font-size: 8vmin;
+}
+.content-col .btn, p{
+      margin-top: -10px;
+}
+
+.tours .image-col {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+}
+.image-col img {
+      width: 300px;
+      margin: 20px;
+}
+
+footer {
+      min-height: 20vh;
+      background-color: rgb(57, 57, 57);
+      color: whitesmoke;
+      text-align: center;
+      padding: 20px;
+}
+footer p {
+      margin: 20px;
+}
+
+/* Animation */
+
+img {
+      transition: transform .3s ease;
+}
+img:hover {
+      transform: scale(1.1);
+}
+.btn:hover {
+      background-color: whitesmoke;
+      color: rgb(174, 12, 66);
+      border: 1px solid black;
+}
+.nav-links a:hover {
+      color: rgb(174, 12, 66);
+}
+
+
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 850px) {
+      .menu-btn {
+            display: block;
+            margin-right: 3%;
+      }
+      .navbar {
+            padding: 0;
+      }
+      .logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            margin-left: 3%;
+      }
+      .nav-links {
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            gap: 60px;
+            background-color: rgb(68, 54, 111);
+            margin-top: -950px;
+            transition: all 0.5s ease;
+      }
+      .mobile-menu {
+            margin-top: 0px;
+            border-bottom-right-radius: 30%;
+      }
+      .header-content {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 250px;
+      }
+
+      .event-detail {
+            flex-direction: column;
+            gap: 40px;
+      }
+      .event-detail img {
+            width: 90%;
+      }
+      
+      .tours {
+            flex-direction: column;
+            gap: 10px;
+      }
+      .tours .content-col {
+            margin: 0;
+            width: 70%;
+      }
+      .tours .image-col {
+            width: 100%;
+      }
+}

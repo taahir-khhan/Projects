@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== Custom CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Responsive personal portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <div>
+          <a href="#" class="nav__logo">Tahir</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__items">
+              <a href="#home" class="nav__links">Home</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#about" class="nav__links">About</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#skills" class="nav__links">Skills</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#services" class="nav__links">Services</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#works" class="nav__links">Works</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#contact" class="nav__links">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+
+      <section class="home" id="home">
+        <div class="home__container">
+          <div class="home__data">
+            <div class="home__profile">
+              <img
+                src="./assets/img/Profile.png"
+                alt="Profile image"
+                class="home__profile__img"
+              />
+            </div>
+
+            <h1 class="home__title">Tahir Khan</h1>
+
+            <span class="home__profession">Frontend Developer</span>
+
+            <div class="home__socials">
+              <a
+                href="https://www.linkedin.com/in/tahir-khan-t45-k98/"
+                class="home__social-links"
+              >
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://github.com/taahir980" class="home__social-links">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="#" class="home__social-links">
+                <i class="bx bxl-dribbble"></i>
+              </a>
+              <a href="#" class="home__social-links">
+                <i class="bx bxl-behance"></i>
+              </a>
+            </div>
+            <a href="#" class="btn home__btn">Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+
+      <section class="section about" id="about">
+        <span class="section-subtitle">My intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p class="about__description">
+              Hi, i'm a Frontend Developer passionate about creating and
+              developing web interfaces, Im a beginner learning to develop
+              projects using HTML, CSS & javascript. And i am trying to build
+              quality projects.
+            </p>
+            <img
+              src="./assets/img/About.jpeg"
+              alt="About image"
+              class="about__img"
+            />
+          </div>
+
+          <div>
+            <div class="about__information">
+              <h2 class="about__information__title">Information</h2>
+
+              <div class="about__information__data">
+                <i class="bx bx-user about__information__icon"></i>
+                <span>Tahir Khan</span>
+              </div>
+
+              <div class="about__information__data">
+                <i class="bx bxs-phone-call about__information__icon"></i>
+                <span>1221-3455-9090 </span>
+              </div>
+
+              <div class="about__information__data">
+                <i class="bx bxl-gmail about__information__icon"></i>
+                <span>user@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="about__information">
+              <h2 class="about__information__title">Experience & Support</h2>
+
+              <div class="about__information__data">
+                <i class="bx bxs-badge-check about__information__icon"></i>
+                <div>
+                  <span class="about__information__subtitle">Fresher</span>
+                  <span class="about__information__subtitle__small"
+                    >Experience</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information__data">
+                <i class="bx bxs-briefcase about__information__icon"></i>
+                <div>
+                  <span class="about__information__subtitle">10+ Projects</span>
+                  <span class="about__information__subtitle__small"
+                    >Completed</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information__data">
+                <i class="bx bx-support about__information__icon"></i>
+                <div>
+                  <span class="about__information__subtitle">Support</span>
+                  <span class="about__information__subtitle__small"
+                    >Online 24/7</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+
+      <section class="skills section" id="skills">
+        <span class="section-subtitle">Why Choose Me</span>
+        <h2 class="section-title">My Expertise Area</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skill_title">Frontend</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">html</span>
+              <span class="skills__number">90%</span>
+              <span class="skills__bar skills__html"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">css</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__css"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">javascript</span>
+              <span class="skills__number">60%</span>
+              <span class="skills__bar skills__javascript"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Git & Github</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__git"></span>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skill_title">Backend</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">Node js</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__node"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">DSA</span>
+              <span class="skills__number">60%</span>
+              <span class="skills__bar skills__dsa"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">c++</span>
+              <span class="skills__number">80%</span>
+              <span class="skills__bar skills__cplusplus"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Database</span>
+              <span class="skills__number">60%</span>
+              <span class="skills__bar skills__database"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== EDUCATION =====-->
+
+      <section class="education section">
+        <span class="section-subtitle">Qualification</span>
+        <h2 class="section-title">My Education</h2>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+            <div>
+              <div class="education__year">2016 - 2018</div>
+              <div class="education__university">
+                Higher Secondary Education
+              </div>
+            </div>
+
+            <div class="education__time">
+              <div class="education__rounder"></div>
+              <div class="education__line"></div>
+            </div>
+
+            <div>
+              <div class="education__degree">Stream Science</div>
+              <div class="education__course">Science</div>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <div class="education__year">2018 - 2021</div>
+              <div class="education__university">Utkal University</div>
+            </div>
+
+            <div class="education__time">
+              <div class="education__rounder"></div>
+              <div class="education__line"></div>
+            </div>
+
+            <div>
+              <div class="education__degree">Bachelor's Degree</div>
+              <div class="education__course">Computer Science</div>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <div class="education__year">2021 - 2023</div>
+              <div class="education__university">Utkal University</div>
+            </div>
+
+            <div class="education__time">
+              <div class="education__rounder"></div>
+              <div class="education__line"></div>
+            </div>
+
+            <div>
+              <div class="education__degree">Master's Degree</div>
+              <div class="education__course">Computer Science</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SERVICES =====-->
+
+      <section class="services section" id="services">
+        <span class="section-subtitle">What I Offer</span>
+        <h2 class="section-title">My Services</h2>
+
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <i class="bx bx-code services__icon"></i>
+            <h3 class="services__title">Web Design</h3>
+            <p class="services__description">
+              This services i offer is of high quality, and above all Experience
+              that i have in the labor field for some years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-code-curly services__icon"></i>
+            <h3 class="services__title">Problem Solving</h3>
+            <p class="services__description">
+              This services i offer is of high quality, and above all Experience
+              that i have in the labor field for some years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-desktop services__icon"></i>
+            <h3 class="services__title">Computer Science</h3>
+            <p class="services__description">
+              This services i offer is of high quality, and above all Experience
+              that i have in the labor field for some years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-server services__icon"></i>
+            <h3 class="services__title">Backend Development</h3>
+            <p class="services__description">
+              This services i offer is of high quality, and above all Experience
+              that i have in the labor field for some years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-pencil services__icon"></i>
+            <h3 class="services__title">Cotent Writing</h3>
+            <p class="services__description">
+              This services i offer is of high quality, and above all Experience
+              that i have in the labor field for some years
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== PROJECT IN MIND =====-->
+
+      <section class="project section">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <h2 class="section-title project__title">
+              Do you have a project in mind
+            </h2>
+            <p class="project__description">
+              If you have a project you want to carry out, do not hesitate and
+              tell me what it is, and what services i can offer you, contact me
+              directly here.
+            </p>
+            <a href="#" class="btn btn__light">Contact Me</a>
+          </div>
+
+          <img
+            src="./assets/img/projectmind.png"
+            alt="Project Image"
+            class="project__img"
+          />
+        </div>
+      </section>
+
+      <!--===== WORKS =====-->
+
+      <section class="work section" id="works">
+        <span class="section-subtitle">My portfolio</span>
+        <h2 class="section-title">Recent Works</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <img src="./assets/img/work1.jpg" alt="work1 image" />
+
+            <div class="work__data">
+              <a
+                href="https://taahir980.github.io/New-Practice-Projects/1-Adventure/index.html"
+                class="work__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="work__title">Work-1</span>
+            </div>
+          </div>
+
+          <div class="work__img">
+            <img src="./assets/img/work2.jpg" alt="work1 image" />
+
+            <div class="work__data">
+              <a
+                href="https://taahir980.github.io/New-Practice-Projects/2-Eduford/index.html"
+                class="work__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="work__title">Work-2</span>
+            </div>
+          </div>
+
+          <div class="work__img">
+            <img src="./assets/img/work3.jpg" alt="work1 image" />
+
+            <div class="work__data">
+              <a
+                href="https://taahir980.github.io/New-Practice-Projects/4-Blog__Site/index.html"
+                class="work__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="work__title">Work-3</span>
+            </div>
+          </div>
+
+          <div class="work__img">
+            <img src="./assets/img/work4.jpg" alt="work1 image" />
+
+            <div class="work__data">
+              <a
+                href="https://taahir980.github.io/New-Practice-Projects/3-Nature__Website/index.html"
+                class="work__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="work__title">Work-4</span>
+            </div>
+          </div>
+
+          <div class="work__img">
+            <img src="./assets/img/work5.jpg" alt="work1 image" />
+
+            <div class="work__data">
+              <a
+                href="https://taahir980.github.io/New-Practice-Projects/Mini__Projects__CSS/1-Profile__Card/index.html"
+                class="work__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="work__title">Work-5</span>
+            </div>
+          </div>
+
+          <div class="work__img">
+            <img src="./assets/img/work6.jpg" alt="work1 image" />
+
+            <div class="work__data">
+              <a
+                href="https://taahir980.github.io/New-Practice-Projects/Mini__Projects__CSS/2-order__summary__component/index.html"
+                class="work__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="work__title">Work-6</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Contact Me</span>
+        <h2 class="section-title">Get in Touch</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="#" class="contact__form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="contact__input"
+              required
+            />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="contact__input"
+              required
+            />
+
+            <input
+              type="text"
+              name="project"
+              placeholder="Project"
+              class="contact__input"
+              required
+            />
+
+            <textarea
+              name="Messgae"
+              rows="10"
+              cols="0"
+              placeholder="Messgae"
+              class="contact__input"
+            ></textarea>
+
+            <input
+              type="submit"
+              value="Send Messgae"
+              class="btn contact__btn"
+            />
+          </form>
+
+          <div>
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Call me</h3>
+              <span class="contact__text">1221-3455-9090</span>
+              <span class="contact__text">9847-9270-0723</span>
+            </div>
+
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Email</h3>
+              <span class="contact__text">usertahir@gmail.com</span>
+              <span class="contact__text">usereren@gmail.com</span>
+            </div>
+
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Location</h3>
+              <span class="contact__text">Kakatpur, Puri</span>
+              <span class="contact__text">Odisha, India, 752119</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <h1 class="footer__title">Tahir</h1>
+
+        <p class="footer__description">
+          I am Tahir this is my personal website, consult me here
+        </p>
+
+        <div class="footer__socials">
+          <a href="https://www.youtube.com/@taahir_khhan" class="footer__link"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/taahir_khhan/?hl=en"
+            class="footer__link"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://x.com/Taahirkhhan" class="footer__link"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+
+        <p class="footer__copy">All right reserved by, Tahir Khan 2024</p>
+      </div>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
