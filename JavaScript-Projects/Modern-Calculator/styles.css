@@ -59,3 +59,11 @@ button:hover {
 .current-operand {
   font-size: 1.8rem;
 }
+
+/* =========== For Small Screen ========== */
+
+@media screen and (max-width: 764px) {
+  body {
+    padding: 0 5%;
+  }
+}
