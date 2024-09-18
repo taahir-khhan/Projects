@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="myInput" placeholder="Enter something" />
+    <button id="myButton">Get Input Value</button>
+    <p id="displayValue"></p>
+  </body>
+  <script>
+    // Select the input and button elements
+    const inputElement = document.getElementById("myInput");
+    const buttonElement = document.getElementById("myButton");
+    const displayElement = document.getElementById("displayValue");
+
+    // Add an event listener to the button
+    buttonElement.addEventListener("click", function () {
+      // Get the value from the input element
+      const inputValue = inputElement.value;
+
+      // Display the value or use it as needed
+      displayElement.textContent = `You entered: ${inputValue}`;
+    });
+  </script>
+</html>

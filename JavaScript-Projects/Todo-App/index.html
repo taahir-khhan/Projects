@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="todo-app">
+      <div class="header">
+        <h2>To Do App<img src="./images/icon.png" alt="logo-image" /></h2>
+        <button class="clear" title="Reset App">
+          <i class="ri-restart-line"></i>
+        </button>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="input-box" placeholder="Add your items" />
+        <button class="btn">Add</button>
+      </div>
+
+      <ul class="list-container"></ul>
+    </div>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>
