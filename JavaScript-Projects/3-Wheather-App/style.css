@@ -9,7 +9,7 @@
 
 body {
   background-color: #212121;
-  color: #fff;
+  color: #fcfafa;
 }
 
 .container {
@@ -26,6 +26,13 @@ body {
   text-align: center;
   margin-bottom: 20px;
   font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.title span {
+  font-size: 0.8rem;
+  font-weight: 200;
 }
 
 .search {
