@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!--=============== Custom CSS ===============-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Check Weather</h1>
+
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Enter city name"
+          spellcheck="false"
+          class="input-box"
+        />
+        <button class="btn"><i class="ri-search-line"></i></button>
+      </div>
+
+      <div class="error">
+        <p>Invalid city name!</p>
+      </div>
+
+      <div class="weather">
+        <img
+          src="./images/clouds.png"
+          alt="city wheather image"
+          class="weather-icon"
+        />
+        <h1 class="temprature">11°C</h1>
+        <h2 class="city">Mumbai</h2>
+
+        <div class="weather__data">
+          <div class="humidity">
+            <img src="./images/humidity.png" alt="humidity image" />
+            <div>
+              <p class="humidity__value">50%</p>
+              <p class="humidity__text">Humidity</p>
+            </div>
+          </div>
+
+          <div class="wind">
+            <img src="./images/wind.png" alt="wind image" />
+            <div>
+              <p class="wind__value">5 km/h</p>
+              <p class="wind__text">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
