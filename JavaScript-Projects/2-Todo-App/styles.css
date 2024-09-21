@@ -41,7 +41,7 @@ body {
 }
 
 .todo-app {
-  width: 100%;
+  width: 90%;
   max-width: 580px;
   background-color: #fff;
   margin: 120px auto 40px;
@@ -144,7 +144,7 @@ li > img {
 
 @media screen and (max-width: 648px) {
   .todo-app {
-    max-width: 380px;
+    max-width: 420px;
   }
 
   ul li {

@@ -71,6 +71,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  transition: display 0.2s;
 }
 
 .weather > .weather-img {
