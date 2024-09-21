@@ -16,55 +16,73 @@ body {
   justify-content: center;
 }
 
+.calculator {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 button {
   outline: none;
-  border: 2px solid #fff;
-  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  background-color: #1c1c1c;
+  color: #fff;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   transition: background-color 0.4s;
   font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.4s, box-shadow 0.4s;
 }
 
 button:hover {
-  background-color: rgb(255, 255, 255);
-  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 8px rgba(28, 28, 28, 0.8);
 }
 
 .project-heading {
   text-align: center;
-  color: #fff;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 2.5rem;
 }
 
 .calculator-grid {
   display: grid;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 70px);
+  row-gap: 0.4rem;
+  column-gap: 0.4rem;
 }
 
 .output-screen {
   grid-column: 1 / -1;
-  background-color: #fff;
+  background-color: #1c1c1c;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
   padding: 10px;
+  border-radius: 10px;
   word-wrap: break-word;
   word-break: break-all;
 }
 
 .span-two {
   grid-column: span 2;
+  background: #ff9500;
 }
 
 .previous-operand {
-  font-size: 1.2rem;
-  color: rgba(28, 27, 27, 0.7);
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .current-operand {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 /* =========== For Small Screen ========== */
@@ -72,5 +90,15 @@ button:hover {
 @media screen and (max-width: 764px) {
   body {
     padding: 0 5%;
+  }
+
+  .project-heading {
+    font-size: 2rem;
+  }
+
+  .calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 50px);
   }
 }
