@@ -1,54 +1,56 @@
 /* Abouts Us Page */
 
 .sub-header {
-      height: 50vh;
-      width: 100%;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      text-align: center;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 .sub-header h1 {
-      color: #fff;
-      margin-top: 100px;
+  color: #fff;
+  margin-top: 100px;
 }
 
 .about-us {
-      width: 80%;
-      margin: auto;
-      padding-top: 80px;
-      padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 .about-us .row {
-      display: flex;
-      justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .about-col {
-      flex-basis: 48%;
+  flex-basis: 48%;
 }
-.about-col > h1, p{
-      padding: 0;
-      margin-bottom: 30px;
+.about-col > h1,
+p {
+  padding: 0;
+  margin-bottom: 30px;
 }
 .about-col img {
-      width: 100%;
+  width: 100%;
 }
 .abs-btn {
-      border: 1px solid #f33226;
-      color: #f33226;
-      margin-top: 30px;
+  border: 1px solid #f33226;
+  color: #f33226;
+  margin-top: 30px;
 }
 .abs-btn:hover {
-      color: #fff;
+  color: #fff;
 }
 
-@media(max-width: 700px) {
-      .about-col img {
-            padding-top: 40px;
-      }
+@media (max-width: 700px) {
+  .about-col img {
+    padding-top: 40px;
+  }
 }
 
 footer p {
-      margin-bottom: 0;
+  margin-bottom: 0;
 }

@@ -1,105 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./assets/css/styles.css">
-      <link rel="stylesheet" href="./assets/css/about.css">
-      <link rel="stylesheet" href="./assets/css/contact.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <title>Eduford</title>
-</head>
-<body>
-      
-      <header class="sub-header">
-            <nav>
-                  <img src="./assets/img/logo.png" alt="logo of the page" class="logo">
-                  <div class="nav-links" id="navLinks">
-                        <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
-                        <ul>
-                              <li><a href="./index.html">HOME</a></li>
-                              <li><a href="./aboutUs.html">ABOUT</a></li>
-                              <li><a href="./courses.html">COURSE</a></li>
-                              <li><a href="./blog.html">BLOG</a></li>
-                              <li><a href="./Contactus.html">CONTACT</a></li>
-                        </ul>
-                  </div>
-                  <i class="fa fa-solid fa-bars " onclick="showMenu()"></i>
-            </nav>
-            <h1>Contact Us</h1>
-      </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Eduford</title>
+  </head>
+  <body>
+    <header class="sub-header">
+      <nav>
+        <img src="./assets/img/logo.png" alt="logo of the page" class="logo" />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./aboutUs.html">ABOUT</a></li>
+            <li><a href="./courses.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./Contactus.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </header>
 
-      <!-- Contact Us -->
+    <!-- Contact Us -->
 
-      <section class="location">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14996.69730258891!2d86.1982154!3d20.001196949999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a198bd77e028e9d%3A0x11e31bacc7aa9ea!2sKakatpur%2C%20Odisha%20752108!5e0!3m2!1sen!2sin!4v1723117481436!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14996.69730258891!2d86.1982154!3d20.001196949999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a198bd77e028e9d%3A0x11e31bacc7aa9ea!2sKakatpur%2C%20Odisha%20752108!5e0!3m2!1sen!2sin!4v1723117481436!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
 
-      <section class="address">
-            <div class="row">
-                  <div class="address-col">
-                        <div>
-                              <i class="fa-solid fa-house"></i>
-                              <span>
-                                    <h4>XYZ Road, ABC Building</h4>
-                                    <p>Bhubaneshwar, Odisha, IN</p>
-                              </span>
-                        </div>
-                        <div>
-                              <i class="fa-solid fa-phone"></i>
-                              <span>
-                                    <h4>+ 91 64739-73574-12</h4>
-                                    <p>Monday to Saturday, 10am to 6pm</p>
-                              </span>
-                        </div>
-                        <div>
-                              <i class="fa-solid fa-envelope"></i>
-                              <span>
-                                    <h4>into @practiceprojectgmail.com</h4>
-                                    <p>Email us your query</p>
-                              </span>
-                        </div>
-                  </div>
-                  <div class="contact-col">
-                        <form>
-                              <input type="text" name="Name" placeholder="Enter your name">
-                              <input type="email" name="Email" placeholder="Enter your email">
-                              <input type="text" name="Subject" placeholder="Enter your Subject">
-                              <textarea name="message" placeholder="Message" rows="8"></textarea>
-                              <button name="Submit" class="hero-btn abs-btn">Send Message</button>
-                        </form>
-                  </div>
-            </div>
-      </section>
- 
-      <!-- Footer -->
-      <footer>
-            <h3>About Us</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ab fugit molestias  reprehenderit aliquid, saepe <br> tempore amet deserunt, pariatur at, voluptates ea voluptas .</p>
-            <div class="media-links">
-                  <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                        <i class="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a href="#">
-                        <i class="fa-brands fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                  </a>
-            </div>
-      </footer>
+    <section class="address">
+      <div class="row">
+        <div class="address-col">
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+              <h4>XYZ Road, ABC Building</h4>
+              <p>Bhubaneshwar, Odisha, IN</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h4>+ 91 64739-73574-12</h4>
+              <p>Monday to Saturday, 10am to 6pm</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <h4>into @practiceprojectgmail.com</h4>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form>
+            <input type="text" name="Name" placeholder="Enter your name" />
+            <input type="email" name="Email" placeholder="Enter your email" />
+            <input
+              type="text"
+              name="Subject"
+              placeholder="Enter your Subject"
+            />
+            <textarea name="message" placeholder="Message" rows="8"></textarea>
+            <button name="Submit" class="hero-btn abs-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-      <script>
-            const navLinks = document.getElementById('navLinks')
-            function showMenu() {
-                  navLinks.style.right = '0';
-            }
-            function hideMenu() {
-                  navLinks.style.right = '-200px';
-            }
-      </script>
-</body>
+    <!-- Footer -->
+    <footer>
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ab fugit
+        molestias reprehenderit aliquid, saepe <br />
+        tempore amet deserunt, pariatur at, voluptates ea voluptas .
+      </p>
+      <div class="media-links">
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
 </html>

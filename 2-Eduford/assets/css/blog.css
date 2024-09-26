@@ -1,70 +1,73 @@
 .blog {
-      padding-top: 100px;
-      padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 .blog .row {
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 .blog-col-left {
-      flex-basis: 60%;
+  flex-basis: 60%;
 }
 .blog-col-left img {
-      width: 100%;
+  width: 100%;
 }
 .blog-col-left p {
-      padding: 0;
-      text-align: justify;
+  padding: 0;
+  text-align: justify;
 }
 .blog-col-left h1 {
-      margin: 20px 0;
+  margin: 20px 0;
 }
 .blog-col-right {
-      flex-basis: 38%;
+  flex-basis: 38%;
 }
 
 .comment-box {
-      padding: 30px 20px;
-      border: 1px solid rgb(212, 212, 212);
+  padding: 30px 20px;
+  border: 1px solid rgb(212, 212, 212);
 }
-input[type], textarea {
-      padding: 15px 10px;
-      display: block;
-      width: 100%;
-      margin: 30px 0;
-      background-color: rgb(243, 243, 243);
-      border: none;
+input[type],
+textarea {
+  padding: 15px 10px;
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  background-color: rgb(243, 243, 243);
+  border: none;
 }
 textarea {
-      height: 120px;
+  height: 120px;
 }
 input[type="button"] {
-      width: 160px;
-      border: 1px solid #f44336;
-      font-weight: 700;
-      background: transparent;
-      color: #f44336;
+  width: 160px;
+  border: 1px solid #f44336;
+  font-weight: 700;
+  background: transparent;
+  color: #f44336;
 }
-tr, th, td {
-      width: 100%;
-      padding: 10px;
-      border: 1px soild black;
+tr,
+th,
+td {
+  width: 100%;
+  padding: 10px;
+  border: 1px soild black;
 }
 tr {
-      margin: 20px 0;
+  margin: 20px 0;
 }
 th {
-      background-color: #f44336;
-      color: #fff;
+  background-color: #f44336;
+  color: #fff;
 }
 
-@media(max-width: 700px) {
-      .comment-box {
-            margin-bottom: 40px;
-      }
-      h1 {
-            font-size: 22px;
-      }
+@media (max-width: 700px) {
+  .comment-box {
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 22px;
+  }
 }
