@@ -41,6 +41,7 @@ body {
   justify-content: space-between;
   align-items: center;
   column-gap: 0.5rem;
+  transition: all 0.4s;
 }
 
 .search input,
@@ -71,7 +72,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  transition: display 0.2s;
+  transition: all 0.4s;
 }
 
 .weather > .weather-img {
