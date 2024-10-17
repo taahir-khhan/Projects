@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --pale-Blue: hsl(225, 100%, 94%);
+  --very-Pale-Blue: hsl(225, 100%, 98%);
+  --dark-Blue: hsl(223, 47%, 23%);
+  --bright-Blue: hsl(245, 75%, 52%);
+  --desaturated-Blue: hsl(224, 23%, 55%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--pale-Blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component {
+  max-width: 400px;
+  padding-bottom: 10px;
+  border-radius: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: var(--dark-Blue);
+  text-align: center;
+}
+.component .hero-img {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+.component h1 {
+  margin-top: 40px;
+}
+.component p {
+  width: 80%;
+  margin: 20px auto 20px auto;
+}
+.component .plan {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--pale-Blue);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.plan .price {
+  display: flex;
+  gap: 14px;
+}
+.price h3 {
+  font-size: 16px;
+}
+.plan a {
+  font-weight: 600;
+  color: var(--bright-Blue);
+  transition: 0.3s ease;
+}
+.plan a:hover {
+  text-decoration: none;
+  color: var(--desaturated-Blue);
+}
+.pricing {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.component .btn {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: var(--bright-Blue);
+  padding: 10px 40px;
+  margin: auto;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 8px 10px var(--desaturated-Blue);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--desaturated-Blue);
+}
+.component .c-ord {
+  text-decoration: none;
+  margin: 30px 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .component {
+    max-width: 360px;
+  }
+}
