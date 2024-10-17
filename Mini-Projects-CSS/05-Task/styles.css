@@ -24,7 +24,7 @@ body {
   background-color: #212121;
 }
 
-.blue-text {
+.blue__text {
   color: var(--blue-color);
 }
 
@@ -35,12 +35,12 @@ body {
   padding: 4rem 0 2rem;
 }
 
-.row-1 {
+.row__1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.triangle-1 {
+.triangle__1 {
   position: absolute;
   left: 70px;
   top: -6px;
@@ -49,12 +49,12 @@ body {
   transform: rotate(180deg);
 }
 
-.text {
+.text__col {
   padding: 5px;
   position: relative;
 }
 
-.text .title {
+.title {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 4rem;
@@ -68,17 +68,12 @@ body {
   font-size: 0.8rem;
 }
 
-.quote {
-  color: var(--blue-color);
-  font-size: 2.5rem;
-}
-
-.wishes {
+.wishes__text {
   margin-bottom: 2rem;
   position: relative;
 }
 
-.wishes .italic {
+.italic {
   font-family: "Italianno", cursive;
   font-weight: 500;
   font-size: 4rem;
@@ -87,13 +82,13 @@ body {
   top: -25px;
 }
 
-.wishes .wishes-text {
+.wishes__text-title {
   font-size: 2.5rem;
   font-weight: 900;
   position: relative;
 }
 
-.wishes-text i {
+.circle__icon {
   color: grey;
   position: absolute;
   font-size: 1.1rem;
@@ -103,23 +98,38 @@ body {
   opacity: 0.6;
 }
 
-.text p {
+.quote__icon {
+  color: var(--blue-color);
+  font-size: 2.5rem;
+}
+
+.text__col > p {
   font-size: 1rem;
   font-weight: 550;
   opacity: 0.8;
   word-spacing: 1px;
 }
 
-.images {
+.image__col {
   position: relative;
 }
 
-.images img {
+.triangle__2 {
+  position: absolute;
+  left: 240px;
+  top: 50px;
+  font-size: 1.3rem;
+  opacity: 0.5;
+  transform: rotate(180deg);
+}
+
+.image__col img {
   border: 3.5px solid blue;
   position: absolute;
   left: 30px;
 }
-.image_desc {
+
+.image__desc {
   position: absolute;
   background-color: var(--blue-color);
   color: #fff;
@@ -133,20 +143,11 @@ body {
   flex-direction: column;
 }
 
-.image_desc span {
+.image__desc span {
   font-size: 0.7rem;
 }
 
-.triangle-2 {
-  position: absolute;
-  left: 240px;
-  top: 50px;
-  font-size: 1.3rem;
-  opacity: 0.5;
-  transform: rotate(180deg);
-}
-
-.row-2 {
+.row__2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -155,10 +156,10 @@ body {
   margin-top: 5rem;
 }
 
-.row-2 img {
+.row__2 img {
   opacity: 0.5;
 }
 
-.row-2 p {
+.row__2 p {
   opacity: 0.8;
 }
